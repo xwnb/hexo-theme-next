@@ -56,5 +56,22 @@
   {%- if theme.pjax %}
     </div>
   {%- endif %}
+
+
+  <!-- require APlayer -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+  <div id="aplayer"></div>
+  <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+  <!-- require MetingJS -->
+  <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+  <meting-js 
+    server="netease" 
+    type="playlist" 
+    id="60498371"  
+    autoplay="true" 
+    fixed="true" 
+    mutex="true"
+    order="random"
+  </meting-js>
 </body>
 </html>
