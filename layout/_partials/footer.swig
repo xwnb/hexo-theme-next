@@ -1,3 +1,5 @@
+<img src="http://ghchart.rshah.org/xwnb" alt="xwnb's Github chart" />
+
 {%- if theme.footer.beian.enable %}
   <div class="beian">
     {{- next_url('http://www.beian.miit.gov.cn', theme.footer.beian.icp + ' ') }}
