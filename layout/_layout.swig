@@ -71,7 +71,7 @@
     autoplay="true" 
     fixed="true" 
     mutex="true"
-    order="random"
+    order="random">
   </meting-js>
 </body>
 </html>
